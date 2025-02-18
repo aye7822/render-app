@@ -6,7 +6,7 @@ function Card({ id, name, price, onDelete }) {
         <button onClick={() => console.log(name, 'is added to cart')}>Add to Cart</button>
         <button onClick={() => onDelete(id)}>Delete</button>
       </div>
-    );
+    )
   }
   
   export default Card
